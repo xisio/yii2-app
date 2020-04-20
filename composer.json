@@ -28,7 +28,8 @@
         "kartik-v/yii2-icons": "@dev",
         "symfony/inflector": "4.4.x-dev",
         "yiisoft/yii2-apidoc": "@dev",
-        "kartik-v/yii2-editable": "@dev"
+        "kartik-v/yii2-editable": "@dev",
+	"mootensai/yii2-uuid-behavior": "@dev"
     },
     "autoload": {
         "psr-4": {
@@ -60,6 +61,11 @@
         {
           "type": "vcs",
           "url": "https://github.com/xisio/yii2-openapi"
+        },
+	{
+          "type": "vcs",
+          "url": "https://github.com/xisio/yii2-uuid-behavior"
         }
+
     ]
 }
