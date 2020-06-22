@@ -1,0 +1,51 @@
+.content{
+    display: flex;
+}
+
+.dependent {
+	border: 1px solid black;
+	padding:20px;
+	margin-bottom: 20px;
+}
+
+li.nav-item {
+  width:100%;
+}
+.dropdown-toggle.nav-link{
+  display:none
+}
+
+a.nav-link.active {
+  font-weight:bold;
+}
+.admin-user ul.nav-pills.nav-stacked.nav li {
+  width:100%;
+}
+
+.form-group label,label {
+  font-weight:bold;
+}
+
+.actions span {
+  cursor: pointer;
+}
+
+div.multi span{
+  width:100%
+}
+.actions span {
+    font-size: 1.3em;
+    min-width:20px;
+}
+.multi_entry {
+	border: 1px solid black;
+	padding:20px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+}
+
+.multi_class {
+    border: 1px solid black;
+    padding: 20px;
+    margin-bottom: 20px;
+}
