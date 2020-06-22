@@ -9,7 +9,6 @@ class HasAccess
 {
     public static function check($class, $property = '')
     {
-        //$config = __DIR__.'/access.yml';
         $config = Yii::$app->params['accessfile'];
         $canAccess = true;
         $data = Yaml::parseFile($config);
